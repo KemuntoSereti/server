@@ -75,5 +75,5 @@ def delete_admin(id):
     cur.close()
     return jsonify({'message': 'Admin deleted successfully'})
 
-if __name__ == '__main__':
+if __name__ == '__master__':
     app.run(debug=True)
